@@ -9,3 +9,5 @@ dependencies = []
 
 [project.scripts]
 todo = "resolution_week1_flameX.main:main"
+[tool.hatch.build.targets.wheel]
+packages = ["src/resolution_week1_flamex"]
